@@ -224,14 +224,14 @@ for (var i = 0; i <= 10; i++) {
 	if (i === 9) {
 		break;
 	}
-	console.log(i);
+	// console.log(i);
 }
 
 for (var i = 0; i <= 10; i++) {
 	if (i === 9) {
 		continue;
 	}
-	console.log(i);
+	// console.log(i);
 }
 
 //
