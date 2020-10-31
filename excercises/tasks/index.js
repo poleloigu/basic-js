@@ -17,5 +17,54 @@ function numbersInLoop(rangeStart, rangeEnd, divisor) {
 		}
 	}
 }
-numbersInLoop(10, 20, 3);
-console.log(function_test);
+// numbersInLoop(10, 20, 3);
+// console.log(function_test);
+
+//Write a function that will output a multiplication table with size of a given argument.
+// multiplicationTable(3);  3x3
+// multiplicationTable(4);  4x4
+
+var result = '\n';
+function multiplicationtTable(input) {
+	for (var i = 1; i <= input; i++) {
+		debugger;
+		for (var k = 1; k <= input; k++) {
+			result += i * k + ' ';
+			debugger;
+		}
+		result = ' ';
+	}
+}
+// multiplicationtTable(4);
+
+// Write a function, outputting a christmas tree of a given height, made of asterisk * character.
+// christmasTree(4);
+
+/** My thoughts on the problem
+ * function
+ * for loop
+ * christmas tree must be a given into a function
+ */
+
+/*
+
+*
+**
+***
+****
+
+*/
+
+function christmasTree(height) {
+	for (var i = 1; i < height; i++) {
+		var result = '';
+		// debugger;
+		for (var j = 1; j <= i; j++) {
+			result += '*';
+			// debugger;
+		}
+		console.log(result);
+		// debugger;
+	}
+}
+christmasTree(5);
