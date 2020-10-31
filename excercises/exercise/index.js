@@ -82,36 +82,56 @@ a === b; // a is equal to b (does compare types)     2 === '2' false
 // Conditionals (Will be using the variablles from comparison a, b)
 if (a < b) {
 	// all of the comparison operators can be used here
-	console.log('a is smaller than b');
+	// console.log('a is smaller than b');
 } else if (a === 0) {
-	console.log('a is equal to 0');
+	// console.log('a is equal to 0');
 } else {
-	console.log('a is not smaller than b');
+	// console.log('a is not smaller than b');
 }
 
 switch (a) {
 	case a === 0:
-		console.log('a is equal to 0');
+		// console.log('a is equal to 0');
 		break;
 
 	case b === 0:
-		console.log('b is equal to 0');
+		// console.log('b is equal to 0');
 		break;
 	case a < b:
-		console.log('a is smaller than b');
+		// console.log('a is smaller than b');
 		break;
 
 	case a > b:
-		console.log('a is not smaller than b');
+		// console.log('a is not smaller than b');
 		break;
 
 	default:
-		console.log('default action');
+		// console.log('default action');
 		break;
 }
 
 // Functions
+function FUNCTION_NAME(argument1, argument2) {
+	console.log('The function has started');
+	console.log(argument1, argument2);
+	var addedSum = argument1 + argument2;
+	console.log(addedSum);
+	return addedSum;
+	alert('THIS IS SOME TEXT');
+}
+function NOTIFY_SOMETHING(something) {
+	alert(something);
+	console.log(something);
+	document.write(something);
+}
 
+var result;
+console.log(result);
+var c = 10;
+var d = 15;
+result = FUNCTION_NAME(c, d);
+console.log(result);
+NOTIFY_SOMETHING('What we wanted to notify');
 // Arrays
 
 // Objects
