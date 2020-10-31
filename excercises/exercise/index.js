@@ -214,4 +214,24 @@ while (i <= 10) {
 //     console.log(h) // 11
 // }
 
+var i = 0;
+do {
+	// console.log('Text');
+	i++;
+} while (i <= 10);
+
+for (var i = 0; i <= 10; i++) {
+	if (i === 9) {
+		break;
+	}
+	console.log(i);
+}
+
+for (var i = 0; i <= 10; i++) {
+	if (i === 9) {
+		continue;
+	}
+	console.log(i);
+}
+
 //
