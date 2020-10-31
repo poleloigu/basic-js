@@ -75,16 +75,45 @@ a <= b; // a is smaller or equal to b
 !(a < b); // a is not smaller than b
 a != b; // a does not equal b
 a == b; // a is equal to b (does not compare types) 2 == '2' true
-a === b // a is equal to b (does compare types)     2 === '2' false
-!a // a does not exist (a = null)
-!!a // a does exist 
+a === b; // a is equal to b (does compare types)     2 === '2' false
+!a; // a does not exist (a = null)
+!!a; // a does exist
 
-// Conditionals
+// Conditionals (Will be using the variablles from comparison a, b)
+if (a < b) {
+	// all of the comparison operators can be used here
+	console.log('a is smaller than b');
+} else if (a === 0) {
+	console.log('a is equal to 0');
+} else {
+	console.log('a is not smaller than b');
+}
+
+switch (a) {
+	case a === 0:
+		console.log('a is equal to 0');
+		break;
+
+	case b === 0:
+		console.log('b is equal to 0');
+		break;
+	case a < b:
+		console.log('a is smaller than b');
+		break;
+
+	case a > b:
+		console.log('a is not smaller than b');
+		break;
+
+	default:
+		console.log('default action');
+		break;
+}
 
 // Functions
-
-// Loops
 
 // Arrays
 
 // Objects
+
+// Loops
