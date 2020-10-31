@@ -54,6 +54,18 @@ var thirdString = string + secondString;
 // console.log(thirdString); // string or any type of textand this is a string aswell
 
 // Math operations
+var nr1 = 10;
+var nr2 = 5;
+var index = 0;
+var sum = 10 + 5;
+var minus = nr1 - nr2;
+var multiply = nr1 * 5;
+var divide = 10 / nr2;
+var modulo = 10 % 5;  // https://www.youtube.com/watch?v=MrTtsX2Wg9Q
+nr2 += nr1;
+nr1 *= nr2;
+index++ // index is now 1
+index-- // index is now 0
 
 // Comparison
 
