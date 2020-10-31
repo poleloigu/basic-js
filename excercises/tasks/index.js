@@ -72,12 +72,16 @@ var array = [
 	[2, 4, 6],
 	[3, 6, 9],
 ];
-
+array[0][0];
 function multiplicationTable(array, multiplicator) {
 	//  result = array.forEach(val) * multiplicator;
 	array.forEach(function (value, index) {
-		value = value * multiplicator;
+		value.forEach(function (innerValue, innerIndex) {
+			console.log(innerValue);
+			array[index][innerIndex] = innerValue * multiplicator;
+		});
 	});
 	return result;
 }
 var res = multiplicationTable(array, multiplicator);
+console.log(array);
