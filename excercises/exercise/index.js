@@ -111,11 +111,18 @@ switch (a) {
 }
 
 // Functions
+// extra features: arrow function
+/* 
+var FUNCTION(argument1, argument2) => {
+    var addedSum = argument1 + argument2;
+    return addedSum
+}
+*/
 function FUNCTION_NAME(argument1, argument2) {
-	console.log('The function has started');
-	console.log(argument1, argument2);
+	// console.log('The function has started');
+	// console.log(argument1, argument2);
 	var addedSum = argument1 + argument2;
-	console.log(addedSum);
+	// console.log(addedSum);
 	return addedSum;
 	alert('THIS IS SOME TEXT');
 }
@@ -126,14 +133,20 @@ function NOTIFY_SOMETHING(something) {
 }
 
 var result;
-console.log(result);
+// console.log(result);
 var c = 10;
 var d = 15;
 result = FUNCTION_NAME(c, d);
-console.log(result);
-NOTIFY_SOMETHING('What we wanted to notify');
-// Arrays
+// console.log(result);
+// NOTIFY_SOMETHING('What we wanted to notify');
 
+// Arrays
+var arr = [];
+arr = [1, 2, 3.55, 'text', [1, 2, 3], {name: 'Ole'}, true];
+console.log(arr[0]); // 1
+console.log(arr[3]); // 'text'
+arr[1] = 10;
+console.log(arr);
 // Objects
 
 // Loops
