@@ -143,10 +143,40 @@ result = FUNCTION_NAME(c, d);
 // Arrays
 var arr = [];
 arr = [1, 2, 3.55, 'text', [1, 2, 3], {name: 'Ole'}, true];
-console.log(arr[0]); // 1
-console.log(arr[3]); // 'text'
+// console.log(arr[0]); // 1
+// console.log(arr[3]); // 'text'
 arr[1] = 10;
-console.log(arr);
+// console.log(arr);
+var text = arr[3];
+// console.log(text);
+var newVariable = 100;
+arr.push(newVariable);
+// console.log(arr);
+var poppedElement = arr.pop();
+// console.log(poppedElement);
+// console.log(arr);
+// console.log(arr.includes(3.55));
+// console.log(arr.length);
+
 // Objects
+var obj = {
+	name: 'Ole',
+	age: 25,
+	arr: [1, 2, 3, 4],
+	date: Date.now(), // https://en.wikipedia.org/wiki/Unix_time
+	money: 100 + 100,
+	currency: 'EUR',
+};
+
+// console.log(obj.name);
+var myName = obj.name;
+// console.log(myName);
+// console.log(obj.money + obj.currency);
+obj.money = 1000;
+obj.currency = 'DOLLAR';
+obj.currencySymbol = '$';
+// console.log(obj);
+// console.log(obj.currencySymbol + obj.money);
+// console.log(obj.age + obj.money);
 
 // Loops
