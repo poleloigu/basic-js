@@ -186,6 +186,15 @@ obj.currencySymbol = '$';
 for (var i = 0; i <= 100; i++) {
 	// console.log(i);
 }
+
+// using variables for for loop
+var start = 0;
+var end = 20;
+for (var i = start; start <= end; start++) {
+	// same as for(var i = 0; i <= 20; i++)
+	// console.log(i);
+}
+
 for (var i = 0; i <= 2; i++) {
 	// console.log(i);
 	for (var j = 0; j <= 10; j++) {
@@ -275,7 +284,8 @@ var objArray = [
 ];
 var total = 0;
 objArray.forEach(function (val, index) {
-	console.log(val.name);
+	console.log(val);
+	console.log(val.money);
 	total = total + val.money;
 });
 console.log('The total amount of money is: ' + total);
