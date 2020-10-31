@@ -58,13 +58,26 @@ function multiplicationtTable(input) {
 function christmasTree(height) {
 	for (var i = 1; i < height; i++) {
 		var result = '';
-		// debugger;
 		for (var j = 1; j <= i; j++) {
 			result += '*';
-			// debugger;
 		}
 		console.log(result);
-		// debugger;
 	}
 }
-christmasTree(5);
+// christmasTree(5);
+
+var multiplicator = 3;
+var array = [
+	[1, 2, 3],
+	[2, 4, 6],
+	[3, 6, 9],
+];
+
+function multiplicationTable(array, multiplicator) {
+	//  result = array.forEach(val) * multiplicator;
+	array.forEach(function (value, index) {
+		value = value * multiplicator;
+	});
+	return result;
+}
+var res = multiplicationTable(array, multiplicator);
