@@ -180,3 +180,22 @@ obj.currencySymbol = '$';
 // console.log(obj.age + obj.money);
 
 // Loops
+// show double for as well
+//  starting   working/end incrementation
+for (var i = 0; i <= 100; i++) {
+	// console.log(i);
+}
+for (var i = 0; i <= 2; i++) {
+	// console.log(i);
+	for (var j = 0; j <= 10; j++) {
+		// console.log(j);
+		if (j === 5) {
+			// alert('J is 5');
+		}
+	}
+}
+
+
+
+
+//
