@@ -245,5 +245,37 @@ iterateArr.forEach(function (val, i) {
 	// console.log(i);
 });
 
+for (var value of iterateArr) {
+	// console.log(value);
+}
 
+for (var index in iterateArr) {
+	// console.log(index);
+}
 
+var objArray = [
+	{
+		name: 'Ole',
+		age: 25,
+		money: 1000,
+		currency: 'EUR',
+	},
+	{
+		name: 'John',
+		age: 50,
+		money: 10000,
+		currency: 'USD',
+	},
+	{
+		name: 'Kathy',
+		age: 30,
+		money: 100000,
+		currency: 'YEN',
+	},
+];
+var total = 0;
+objArray.forEach(function (val, index) {
+	console.log(val.name);
+	total = total + val.money;
+});
+console.log('The total amount of money is: ' + total);
