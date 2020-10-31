@@ -234,4 +234,16 @@ for (var i = 0; i <= 10; i++) {
 	// console.log(i);
 }
 
-//
+// Iterating over arrays
+var iterateArr = [1, 2, 3, 'text', 4, 5, {name: 'Ole'}, true, 6, 7, 8, 9, 10];
+for (var i = 0; i < iterateArr.length; i++) {
+	// console.log(iterateArr[i]);
+}
+console.log(iterateArr);
+iterateArr.forEach(function (val, i) {
+	// console.log(val);
+	// console.log(i);
+});
+
+
+
