@@ -80,6 +80,7 @@ a === b; // a is equal to b (does compare types)     2 === '2' false
 !!a; // a does exist
 
 // Conditionals (Will be using the variablles from comparison a, b)
+// extra: OR = |   and = &
 if (a < b) {
 	// all of the comparison operators can be used here
 	// console.log('a is smaller than b');
@@ -195,7 +196,22 @@ for (var i = 0; i <= 2; i++) {
 	}
 }
 
+var i = 0;
+while (i <= 10) {
+	// console.log(i)
+	i++;
+}
 
+// var h=0
+// while (h<=10) {   // 0 - 10
+//     console.log(h) // 10
+//     h++ // 11
+// }
 
+// var h=0
+// while (h<=10) {  // 0 - 11
+//     h++ // 11
+//     console.log(h) // 11
+// }
 
 //
