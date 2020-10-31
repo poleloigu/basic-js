@@ -61,13 +61,23 @@ var sum = 10 + 5;
 var minus = nr1 - nr2;
 var multiply = nr1 * 5;
 var divide = 10 / nr2;
-var modulo = 10 % 5;  // https://www.youtube.com/watch?v=MrTtsX2Wg9Q
+var modulo = 10 % 5; // https://www.youtube.com/watch?v=MrTtsX2Wg9Q
 nr2 += nr1;
 nr1 *= nr2;
-index++ // index is now 1
-index-- // index is now 0
+index++; // index is now 1
+index--; // index is now 0
 
 // Comparison
+var a = 1;
+var b = 2;
+a < b; // a is smaller than b
+a <= b; // a is smaller or equal to b
+!(a < b); // a is not smaller than b
+a != b; // a does not equal b
+a == b; // a is equal to b (does not compare types) 2 == '2' true
+a === b // a is equal to b (does compare types)     2 === '2' false
+!a // a does not exist (a = null)
+!!a // a does exist 
 
 // Conditionals
 
