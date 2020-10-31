@@ -47,9 +47,11 @@ var object = {
 
 var noValue = null;
 var notANumber = NaN;
-var undef = undefined;  // var undef;
+var undef = undefined; // var undef;
 // String operations
-
+var secondString = 'and this is a string aswell';
+var thirdString = string + secondString;
+// console.log(thirdString); // string or any type of textand this is a string aswell
 
 // Math operations
 
